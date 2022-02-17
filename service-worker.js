@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MyMindMap/precache-manifest.58162b577154d26e9b783752f65f5ad1.js"
+  "/MyMindMap/precache-manifest.7bb10597ef8fcf7b8d586b66f63940cf.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "m-library"});
+workbox.core.setCacheNameDetails({prefix: "mymindmap"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
